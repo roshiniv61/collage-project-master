@@ -1,7 +1,7 @@
 # Installation
 Run the following command to clone the repository
 ```
-(https://github.com/Koushalkushi/collage-project-master.git)
+https://github.com/Koushalkushi/collage-project-master.git
 ```
 Go to ```frontend``` and ```backend``` directory to install packages
 ```
@@ -16,19 +16,17 @@ npm install
 Create ```.env``` file inside ```backend``` directory and copy the following code
 
 ```
-MONGO_DB_URL=your mongodb url
+MONGO_DB_URL=mongodb+srv://koushal:RaIITO1O1tvRPycC@cluster10.1bfaxwb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster10
 PORT=5000
 JWT_SECRET=a random secret key eg.secretkey
-FRONTEND_URL= your frontend URL eg http://localhost:5173
+FRONTEND_URL= http://localhost:5173/
 
-create account on cloudinary and obtain the following data
+CLOUDINARY_CLOUD_NAME=dyoeabklc
+CLOUDINARY_API_KEY=664348938171392
+CLOUDINARY_API_SECRET=mtp5jnS2sA00pqMMiYy7VNqfrno
 
-CLOUDINARY_CLOUD_NAME=enter cloud name
-CLOUDINARY_API_KEY=enter key
-CLOUDINARY_API_SECRET=enter API secret
-
-GOOGLE_USERNAME=your gmail address
-GOOGLE_PASSWORD=password created inside 'App Password' section under google accounts setting
+GOOGLE_USERNAME=koushalkushi999@gmail.com
+GOOGLE_PASSWORD= ofptugwqqgdbtnzi
 SMTP_HOST=smtp.gmail.com
 SMTP_PORT=587
 SMTP_SERVICE=Gmail
@@ -36,7 +34,7 @@ SMTP_SERVICE=Gmail
 ```
 Create ```config.js``` file inside ```frontend``` directory and copy the following code
 ```
-const API_URL='backend url'
+const API_URL='http://localhost:5000/'
 export {API_URL}
 ```
 
@@ -45,7 +43,7 @@ export {API_URL}
 Go to ```backend``` and ```frontend``` directory and start the server
 ```
 cd backend
-nodemon server
+npm start
 ```
 ```
 cd frontend

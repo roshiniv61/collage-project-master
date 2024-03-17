@@ -1,7 +1,7 @@
 # Installation
 Run the following command to clone the repository
 ```
-git clone https://github.com/alokyadav1/school-management.git
+(https://github.com/Koushalkushi/collage-project-master.git)
 ```
 Go to ```frontend``` and ```backend``` directory to install packages
 ```
@@ -51,5 +51,4 @@ nodemon server
 cd frontend
 npm run dev
 ```
-# Live Preview
-Check live preview here [https://school-management123.web.app/](https://school-management123.web.app/)
+
